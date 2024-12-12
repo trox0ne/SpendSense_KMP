@@ -22,6 +22,7 @@ fun initKoin(
         CoreModule.deviseInfo,
         StorageModule.settings,
         ViewModel.viewModel,
+        Repositories.repositores,
         platformModule,
         appModule
     )
