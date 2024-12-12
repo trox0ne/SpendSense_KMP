@@ -14,7 +14,7 @@ fun main() {
     initKoin()
 
     application {
-        val state = rememberWindowState().apply { size = DpSize(1920.dp, 1080.dp) }
+        val state = rememberWindowState().apply { size = DpSize(800.dp, 600.dp) }
         Window(
             onCloseRequest = { exitApplication() },
             state = state,
